@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/NutritionAndFoodInfo/static/css/main.a617e044.chunk.css",
+    "main.js": "/NutritionAndFoodInfo/static/js/main.57b30a81.chunk.js",
+    "main.js.map": "/NutritionAndFoodInfo/static/js/main.57b30a81.chunk.js.map",
+    "runtime-main.js": "/NutritionAndFoodInfo/static/js/runtime-main.dbad59a1.js",
+    "runtime-main.js.map": "/NutritionAndFoodInfo/static/js/runtime-main.dbad59a1.js.map",
+    "static/css/2.0eedd39a.chunk.css": "/NutritionAndFoodInfo/static/css/2.0eedd39a.chunk.css",
+    "static/js/2.93d566ea.chunk.js": "/NutritionAndFoodInfo/static/js/2.93d566ea.chunk.js",
+    "static/js/2.93d566ea.chunk.js.map": "/NutritionAndFoodInfo/static/js/2.93d566ea.chunk.js.map",
+    "static/js/3.df0b9c0f.chunk.js": "/NutritionAndFoodInfo/static/js/3.df0b9c0f.chunk.js",
+    "static/js/3.df0b9c0f.chunk.js.map": "/NutritionAndFoodInfo/static/js/3.df0b9c0f.chunk.js.map",
+    "index.html": "/NutritionAndFoodInfo/index.html",
+    "static/css/2.0eedd39a.chunk.css.map": "/NutritionAndFoodInfo/static/css/2.0eedd39a.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/NutritionAndFoodInfo/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.93d566ea.chunk.js.LICENSE.txt": "/NutritionAndFoodInfo/static/js/2.93d566ea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbad59a1.js",
+    "static/css/2.0eedd39a.chunk.css",
+    "static/js/2.93d566ea.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.57b30a81.chunk.js"
+  ]
+}
