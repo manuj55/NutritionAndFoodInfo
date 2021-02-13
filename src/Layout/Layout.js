@@ -1,6 +1,6 @@
 import React from "react";
 import { Form } from "antd";
-import { Input, Button, Tabs, Descriptions } from "antd";
+import { Input, Button, Tabs, Descriptions, message } from "antd";
 const { TabPane } = Tabs;
 const Layout = () => {
   const [nutrition, setNutrition] = React.useState();
@@ -44,8 +44,14 @@ const Layout = () => {
       }
     )
       .then((response) => response.json())
-      .then((json) => setNutrition(json))
-      .catch((err) => console.log(err));
+      .then((json) => {
+        if (json.error) {
+          message.error(json.error);
+        } else {
+          setNutrition(json);
+        }
+      })
+      .catch((err) => message.error(err));
     // const data = await responseData.json();
     // setNutrition(data);
     // console.log(data);
@@ -59,7 +65,7 @@ const Layout = () => {
     const data = await responseData.json();
     // setNutrition(data);
     setFood(data.parsed[0].food);
-    console.log(data);
+    // console.log(data);
   }
   const onFinish = (values) => {
     // console.log("Success:", values);
